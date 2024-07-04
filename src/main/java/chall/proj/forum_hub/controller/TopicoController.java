@@ -4,6 +4,8 @@ import chall.proj.forum_hub.domain.topico.DadosDetalhadosTopico;
 import chall.proj.forum_hub.domain.topico.DadosTopico;
 import chall.proj.forum_hub.domain.topico.Topico;
 import chall.proj.forum_hub.domain.topico.TopicoService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
