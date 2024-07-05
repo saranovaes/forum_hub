@@ -6,4 +6,4 @@ CREATE TABLE topicos (
     nome_curso VARCHAR(100) NOT NULL,
     categoria VARCHAR(255) NOT NULL,
     PRIMARY KEY (id)
-)
+);
